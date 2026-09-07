@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-fc-emerald text-fc-cream font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .text-shadow-neon {
+    text-shadow: 0 0 10px rgba(255, 229, 0, 0.5), 0 0 20px rgba(255, 229, 0, 0.3);
+  }
+  .text-shadow-pink {
+    text-shadow: 0 0 10px rgba(255, 22, 136, 0.5), 0 0 20px rgba(255, 22, 136, 0.3);
+  }
+  .animate-scanning-line {
+    animation: scan 2s linear infinite;
+  }
+}
+
+@keyframes scan {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
