@@ -3,6 +3,9 @@
 
 Facechain is an end-to-end verification pipeline that combines **face detection, face encoding, genuine reverse-image search, social-media evidence extraction, cryptographic hashing, and blockchain verification**.
 
+<img width="1507" height="706" alt="image" src="https://github.com/user-attachments/assets/162dbc47-698d-47e1-824b-2cbe1c909570" />
+
+
 The system is designed for the **Face ID + Blockchain Verification** hackathon challenge.
 
 ---
